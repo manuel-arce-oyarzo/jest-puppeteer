@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "keywords": [],
+  "author": "Manuel Arce Oyarzo <manuel.arce.oyarzo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^13.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
